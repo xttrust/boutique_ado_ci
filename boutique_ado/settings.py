@@ -25,7 +25,14 @@ SECRET_KEY = 'django-insecure-z&ikx8m472gaqcqn!(y7=w6luj1n#^tkw*9chul7sn^hc_+c8$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", "8000-xttrust-boutiqueadoci-rknlql2k0to.ws.codeinstitute-ide.net"]
+ALLOWED_HOSTS = [
+    "localhost", 
+    "8000-xttrust-boutiqueadoci-rknlql2k0to.ws.codeinstitute-ide.net",
+    ]
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://8000-xttrust-boutiqueadoci-rknlql2k0to.ws.codeinstitute-ide.net',
+]
 
 
 # Application definition
