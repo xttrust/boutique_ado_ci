@@ -5,10 +5,6 @@ from products.models import Product
 
 
 def bag_contents(request):
-    """ 
-    Ensures that the bag contents are available 
-    when rendering every page 
-    """
 
     bag_items = []
     total = 0
